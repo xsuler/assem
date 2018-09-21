@@ -1,0 +1,9 @@
+# Documention
+## assembler: NASM
+## test environment: Linux(Fedora 28) + Windows10
+## how to compile
+### under linux
+```bash
+nasm -f elf32 play.asm
+ld -m elf_i386 play.o -o play
+```
